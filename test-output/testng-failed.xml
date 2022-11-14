@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test country and city drop downs on Chrome(failed)">
+    <parameter name="author" value="Uditha"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.luxoft.testcases.ContactUsTest">
+        <methods>
+          <include name="generateExtentReports"/>
+          <include name="setup"/>
+          <include name="TestContryandCityDropDown"/>
+          <include name="initialiseExtentReports"/>
+          <include name="checkStatus"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.luxoft.testcases.ContactUsTest -->
+    </classes>
+  </test> <!-- Test country and city drop downs on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

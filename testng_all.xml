@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">	
+	<test name="Test country and city drop downs on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.luxoft.testcases.ContactUsTest">
+				<methods>
+					<include name="TestContryandCityDropDown" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	
+</suite> <!-- Suite -->
